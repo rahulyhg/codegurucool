@@ -1,0 +1,13 @@
+
+#logo {
+	height: 57px;
+    vertical-align: middle;
+}
+nav .nav-wrapper i {
+  display: block;
+  font-size: 1.0rem;
+}
+.nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  height: 30px;
+  line-height: 10px;
+}
