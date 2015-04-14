@@ -13,44 +13,72 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     </head>
 
-    <body class="grey darken-2">
+    <body>
+    <nav class="blue darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img class="responsive-img logo-img" src="images/logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="overall/get_start.php">Home</a></li>
+        <li><a href="overall/about_us.html">About US</a></li>
+      </ul>
 
-    <div class="navbar-fixed nav-wrapper">
-               <ul id="dropdown1" class="dropdown-content">
-              <li><a href="overall/stlogin.html"><i class="mdi-action-account-circle">Student</i></a></li>
-              <li class="divider"></li>
-              <li><a href="overall/devlogin.html"><i class="mdi-action-group-work">Developer</i></a></li>
-            </ul>
-          <nav>
-          <div class="nav-wrapper grey darken-3">
-            <img id="logo" class="circle responsive-img" src="images/logo.png">
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-               <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">Navbar Link</a></li>
-              </ul>
-              <ul class="right hide-on-med-and-down">
-              <li><a class="dropdown-button" data-activates="dropdown1">Login<i class="mdi-navigation-arrow-drop-down left"></i></a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="overall/get_start.php">Home</a></li>
+        <li><a href="overall/about_us.html">About US</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse white"><i class="mdi-navigation-menu white"></i></a>
+    </div>
+  </nav>
       <div class="container">
-          <h1 class="center-align">Welcome to codegurucool</h1>
-           <a href="first.html"><div class="center-align"><button class="btn waves-effect waves-light" >Getting Start
+          <h4 class="center-align blue-grey-text text-darken-3">Welcome to CodeGurucool</h4>
+
+           <a href="overall/get_start.php"><div class="center-align"><button class="blue btn waves-effect waves-light">Getting Start
             <i class="mdi-content-send right"></i>
           </button></div></a>
+
+          <blockquote>
+           Codegurucool is a bug fixing plateform for the developers and coders.Here you can ask your questions related to programming languages, processes and other technical issues.
+          </blockquote>
+          
+           <div class="divider"></div>
         
-          <img class="responsive-img" src="images/back1.jpg">
-          <img class="responsive-img" src="images/back2.jpg">
-          <a href="first.html"><div class="center-align"><button class="btn waves-effect waves-light">Getting Start
+          <div class="row">
+          <p class="col s12 m6"><i>"Coding is the basic part of every enthusiasts and professional programmers.Love to code any programming language is fun and important."</i></p>
+          <img class="col s12 m6 responsive-img" src="images/back1.jpg">
+         </div>
+         <div class="row">
+          <img class="col s12 m6 responsive-img" src="images/back2.jpg">
+          <p class="col s12 m6"><i>"Sometimes we got an unexpected problem/bug while coding. Usually we note down and forget what was that"</i></p>
+         </div>
+
+         <div class="row">
+
+          <p class="col s12 m6"><i>"Asking from any developer about that bug is quite long process. Taking appointment to meet developer and ask for litle issue is not professional"</i></p>
+          <img class="col s12 m6 responsive-img" src="images/back3.jpg">
+         </div>
+          <div class="divider"></div>
+          <a href="overall/get_start.php"><div class="center-align"><button class="blue btn waves-effect waves-light">Getting Start
             <i class="mdi-content-send right"></i>
           </button></div></a>
-        <!-- Page Content goes here -->
-        
-           
+
       </div>
+  <footer class="page-footer blue darken-4 center-align">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">Why Codegurucool?</h5>
+          <p class="grey-text text-lighten-4 left-align">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        </div>    
+     </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Copyright<a class="brown-text text-lighten-3" href="index.html">&copy;Codegurucool</a>
+      </div>
+    </div>
+  </footer>
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/jquery.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
       <script type="text/javascript" src="js/init.js"></script>
     </body>
