@@ -1,13 +1,22 @@
 
-#logo {
-	height: 57px;
-    vertical-align: middle;
+/*body{
+	background-image: url(../images/signback.jpg);
+	background-repeat: none;
+}*/
+nav ul a,
+nav .brand-logo {
+  color: white;
 }
-nav .nav-wrapper i {
-  display: block;
-  font-size: 1.0rem;
+.logo-img{
+	height: auto;
+	width: 70px;
+
 }
-.nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
-  height: 30px;
-  line-height: 10px;
+
+p{
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
 }
