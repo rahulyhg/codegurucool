@@ -13,97 +13,72 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     </head>
 
-    <body class="grey darken-2">
+ <body>
+    <nav class="blue darken-4" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="../index.html" class="brand-logo"><img class="responsive-img logo-img" src="../images/logo.png"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about_us.html">About US</a></li>
+      </ul>
 
-    <div class="navbar-fixed nav-wrapper">
-        <nav>
-          <div class="nav-wrapper grey darken-3">
-            <img id="logo" class="circle responsive-img" src="../images/logo.png">
-          </div>
-        </nav>
-      </div>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about_us.html">About US</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse white"><i class="mdi-navigation-menu white"></i></a>
+    </div>
+  </nav>
 
       <div class="container">
-      <div class="row grey lighten-1">
-          <h2 class="center-align">Sign Up</h2>
-        <form class="col s12">
-         <div class="row">
-            <div class="input-field col s12">
-              <i class="mdi-action-account-circle prefix"></i>
-              <input id="icon_prefix1" type="text" class="validate">
-              <label for="icon_prefix1">First Name</label>
-            </div>
-             <div class="input-field col s12">
-              <i class="mdi-action-account-circle prefix"></i>
-              <input id="icon_prefix2" type="text" class="validate">
-              <label for="icon_prefix2">Last Name</label>
-            </div>
-            <div class="input-field col s12">
-              <i class="mdi-communication-email prefix"></i>
-              <input id="icon_prefix3" type="text" class="validate">
-              <label for="icon_prefix3">Email</label>
-            </div>
-            <div class="input-field col s12">
-              <i class="mdi-action-lock prefix"></i>
-              <input id="icon_prefix4" type="text" class="validate">
-              <label for="icon_prefix4">Password</label>
-            </div>
-                <h5>Choose your coding Skills</h5>
+          <h2 class="center-align">Login</h2>
+          <p class="center-align">(As A Developer)</p>
+             <form class="col s12">
+                  <div class="row">
+                      <div class="input-field col s12 m6">
+                        <i class="mdi-communication-email prefix"></i>
+                        <input id="icon_prefix3" type="text" class="validate">
+                        <label for="icon_prefix3">Email</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <i class="mdi-action-lock prefix"></i>
+                        <input id="icon_prefix4" type="text" class="validate">
+                        <label for="icon_prefix4">Password</label>
+                      </div>
+                  </div>
+                  
+                  <div class="row">
+                      <div class="center-align col s12 m6 l6"><button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+                        <i class="mdi-content-send right"></i>
+                            </button>
+                      </div>      
+                      <div class="center-align col s12 m6 l6">
+                            <a href="get_start.php" class="btn waves-effect waves-light blue">Back
+                            <i class="mdi-navigation-arrow-back left"></i></a>
+                      </div>
+                  </div>
+              </form>
+      </div>
 
-                <p>
-                  <div class="input-field col s3"> 
-                  <input type="checkbox" id="test1" />
-                  <label for="test1" class="teal-text text-darken-4">HTML/CSS</label>
-                 </div>
-
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test2" />
-                  <label for="test2" class="teal-text text-darken-4">JavaScript/Jquery</label>
-                  </div>
-
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test3" />
-                  <label for="test3" class="teal-text text-darken-4">PHP</label>
-                  </div>
-                  
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test4" />
-                  <label for="test4" class="teal-text text-darken-4">Python</label>
-                  </div>
-                 
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test5" />
-                  <label for="test5" class="teal-text text-darken-4">C/C++</label>
-                  </div>
-                  
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test6" />
-                  <label for="test6" class="teal-text text-darken-4">C#</label>
-                  </div>
-                  
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test7" />
-                  <label for="test7" class="teal-text text-darken-4">ASP .NET</label>
-                  </div>
-                  
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test8" />
-                  <label for="test8" class="teal-text text-darken-4">JAVA</label>
-                  </div>
-                  
-                  <div class="input-field col s3">
-                  <input type="checkbox" id="test9" />
-                  <label for="test9" class="teal-text text-darken-4">Other</label>
-                  </div>
-                </p>
-            </div>
-        </form>
+<footer class="page-footer blue darken-4 center-align">
+    <div class="container">
+      <div class="row">
+        <div class="col l12 s12">
+          <h5 class="white-text">Why Codegurucool?</h5>
+          <p class="grey-text text-lighten-4 left-align">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+        </div>    
      </div>
-     </div>
-
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      Copyright<a class="brown-text text-lighten-3" href="../index.html">&copy;Codegurucool</a>
+      </div>
+    </div>
+  </footer>
 
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="../js/materialize.min.js"></script>
       <script type="text/javascript" src="../js/init.js"></script>
       </body>
+      </html>
